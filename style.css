@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+html, body{
+    height:100%;
+}
+
+body{
+    background-color:purple;
+    background-image:url(fortnite.jpg);
+    background-position:center;
+    background-size:400px;
+    background-blend-mode: soft-light;
+}
+
+.heading{
+    width: 800px;
+    height: 500px;
+    margin:auto;
+    position:absolute;
+    top: 0px; bottom: 0px; right: 0px; left: 0px;
+}
+
+.title1{
+    display:block;
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    font-family:Impact;
+}
+
+.title2{
+    display:block;
+    margin-top: 20px;
+    text-align: center;
+    color:whitesmoke;
+    font-size: 15pt;
+    font-family: Impact;
+}
+
+.noob{
+    margin:50px auto;
+    display: block;
+    width: 180px;
+    height: 50px;
+    border: 3px solid white;
+    background-color: rgba(255,255,255,0);
+    color: pink;
+    font font-weight: bold;
+    border-radius: 100px;
+    font-size: 15pt;
+    font-family: impact;
+transition: background-color 1000ms
+}
+
+.noob:hover{
+    background: green;
+    cursor:pointer;
+}
+    
+.casual{
+    margin:50px auto;
+    display: block;
+    width: 180px;
+    height: 50px;
+    border: 3px solid white;
+    background-color: rgba(255,255,255,0);
+    color: pink;
+    font font-weight: bold;
+    border-radius: 100px;
+    font-size: 15pt;
+    font-family: impact;
+transition: background-color 1000ms
+}
+
+.casual:hover{
+     background: yellow;
+    cursor:pointer;
+    
+}
+
+.unreal{
+    margin:50px auto;
+    display: block;
+    width: 180px;
+    height: 50px;
+    border: 3px solid white;
+    background-color: rgba(255,255,255,0);
+    color: pink;
+    font font-weight: bold;
+    border-radius: 100px;
+    font-size: 15pt;
+    font-family: impact;
+transition: background-color 1000ms
+    
+}
+
+.unreal:hover{
+     background: red;
+    cursor:pointer;
+}
+
